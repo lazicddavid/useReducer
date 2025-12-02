@@ -1,3 +1,16 @@
 body {
+  display: flex;
+  justify-content: center;
+
   box-sizing: border-box;
+}
+
+.header {
+}
+
+h1 {
+  color: white;
+  background-color: blue;
+  margin: 0 auto;
+  font-size: 2rem;
 }
