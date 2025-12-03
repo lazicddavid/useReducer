@@ -192,3 +192,4 @@ DOM.clearBtn.addEventListener("click", () => {
 });
 
 updatePage();
+updatePage();
