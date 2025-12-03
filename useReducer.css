@@ -6,6 +6,7 @@ body {
 }
 
 .header {
+  position: relative;
   align-items: center;
   display: flex;
   justify-content: space-between;
