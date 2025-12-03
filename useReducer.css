@@ -12,17 +12,21 @@ body {
 .header {
   display: flex;
   justify-content: center;
-
   width: 100%;
-  background-color: blue;
+  background-color: rgb(98, 98, 225);
   color: aliceblue;
 }
 
 h1 {
+  padding: 20px;
   font-size: small;
   font-weight: 100;
   color: white;
-  background-color: blue;
   margin: 0;
   font-size: 2rem;
+}
+
+.span {
+  height: 50px;
+  width: 50px;
 }
