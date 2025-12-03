@@ -1,14 +1,24 @@
 body {
   display: flex;
   justify-content: center;
-
+  font-family: sans-serif;
   box-sizing: border-box;
 }
 
 .header {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  background-color: blue;
+  color: aliceblue;
 }
 
 h1 {
+  margin: 0;
+  font-size: small;
+
+  font-weight: 100;
   color: white;
   background-color: blue;
   margin: 0 auto;
