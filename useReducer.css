@@ -1,32 +1,27 @@
 body {
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
+
   font-family: sans-serif;
   box-sizing: border-box;
 }
 
-
-
 .header {
   align-items: center;
   display: flex;
-  justify-content: space-between
-  width: 100%;
+  justify-content: space-between;
+  padding: 0 6rem;
   background-color: rgb(98, 98, 225);
   color: aliceblue;
 }
 
 h1 {
-  padding: 20px;
   font-size: small;
-  font-weight: 100;
- display: flex;
- font-size: 2rem;
+  font-weight: 50;
+
+  font-size: 1.5rem;
 }
 
 span {
-  color: aliceblue;
   height: 40px;
   width: 40px;
 }
