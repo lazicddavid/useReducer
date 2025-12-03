@@ -9,19 +9,20 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 0 6rem;
   background-color: rgb(98, 98, 225);
   color: aliceblue;
+  padding: 20px 10rem;
 }
 
 h1 {
+  margin: 0;
   font-size: small;
   font-weight: 50;
-
   font-size: 1.5rem;
 }
 
 span {
+  color: aliceblue;
   height: 40px;
   width: 40px;
 }
