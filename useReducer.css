@@ -12,7 +12,20 @@ body {
   justify-content: space-between;
   background-color: rgb(98, 98, 225);
   color: aliceblue;
-  padding: 20px 10rem;
+  padding: 10px 10rem;
+}
+
+.cart-total-header {
+  position: absolute;
+  top: 40px;
+  right: 10rem;
+  background-color: rgb(100, 152, 230);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transform: translate(-50%, 15%);
 }
 
 h1 {
@@ -23,6 +36,7 @@ h1 {
 }
 
 .icon {
+  padding: 20px;
   color: aliceblue;
   height: 40px;
   width: 40px;
@@ -123,12 +137,13 @@ h2 {
 }
 
 .clear-btn {
-  display: block;
-  margin: 20px auto 0 auto;
+  display: flex;
+  justify-self: center;
   background-color: lightskyblue;
   padding: 10px 25px;
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  margin-bottom: 10px;
   font-size: 1rem;
 }
