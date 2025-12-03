@@ -10,8 +10,6 @@ body {
 }
 
 .header {
-  display: flex;
-  justify-content: center;
   width: 100%;
   background-color: rgb(98, 98, 225);
   color: aliceblue;
@@ -21,12 +19,12 @@ h1 {
   padding: 20px;
   font-size: small;
   font-weight: 100;
-  color: white;
+
   margin: 0;
   font-size: 2rem;
 }
 
-.span {
-  height: 50px;
-  width: 50px;
+.icon {
+  height: 40px;
+  width: 40px;
 }
