@@ -27,5 +27,11 @@ span {
   width: 40px;
 }
 
+h2 {
+  margin-top: 50px;
+  justify-self: center;
+  font-weight: lighter;
+  font-size: 2rem;
+}
 .container {
 }
