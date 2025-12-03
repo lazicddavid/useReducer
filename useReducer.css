@@ -6,11 +6,13 @@ body {
   box-sizing: border-box;
 }
 
-.container {
-}
+
 
 .header {
+  align-items: center;
   display: flex;
+  gap: 6rem;
+  justify-content: space-between
   width: 100%;
   background-color: rgb(98, 98, 225);
   color: aliceblue;
