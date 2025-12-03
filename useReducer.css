@@ -11,7 +11,6 @@ body {
 .header {
   align-items: center;
   display: flex;
-  gap: 6rem;
   justify-content: space-between
   width: 100%;
   background-color: rgb(98, 98, 225);
@@ -22,9 +21,8 @@ h1 {
   padding: 20px;
   font-size: small;
   font-weight: 100;
-
-  margin: 0;
-  font-size: 2rem;
+ display: flex;
+ font-size: 2rem;
 }
 
 span {
