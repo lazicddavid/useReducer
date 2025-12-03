@@ -45,10 +45,6 @@ h2 {
   padding: 24px 0;
 }
 
-.cart-item + .cart-item {
-  border-top: 1px solid #e0e4f0;
-}
-
 .item-info {
   display: flex;
   align-items: center;
