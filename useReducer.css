@@ -136,6 +136,11 @@ h2 {
   font-weight: bold;
 }
 
+.total-price {
+  color: blueviolet;
+  font-weight: bold;
+}
+
 .clear-btn {
   display: flex;
   justify-self: center;
