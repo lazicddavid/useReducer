@@ -6,8 +6,6 @@ const DOM = {
 };
 
 const cartManager = {
-  items: [
-    {
       id: crypto.randomUUID(),
       name: "Samsung Galaxy S8",
       price: 399.99,
@@ -28,7 +26,7 @@ const cartManager = {
       },
     },
     {
-      id: crypto.randomUUID(),
+      id:crypto.randomUUID(),
       name: "Google Pixel",
       price: 499.99,
       img: "phone-1.png",
