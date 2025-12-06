@@ -174,7 +174,7 @@ DOM.container.addEventListener("click", function (e) {
   if (e.target.classList.contains("increase")) {
     cartManager.increaseQty(id);
   }
-
+bxfbfbx kk 
   if (e.target.classList.contains("decrease")) {
     cartManager.decreaseQty(id);
   }
@@ -192,8 +192,3 @@ DOM.clearBtn.addEventListener("click", () => {
 });
 
 updatePage();
-
-
-
-updatePage {
-}
