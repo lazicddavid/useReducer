@@ -5,6 +5,31 @@ const DOM = {
   cartQtyHeader: document.querySelector(".cart-total-header"),
 };
 
+
+
+function createPhone {
+  return {
+    id: crypto.randomUUID(),
+    name,
+    price,
+    img,
+    qty1,
+
+    getId() {
+    return this.id
+  },
+  getName() {
+  return this.name
+}
+
+
+
+
+
+
+
+
+
 const cartManager = {
   items: [
     {
