@@ -16,12 +16,19 @@ function createPhone {
     qty1,
 
     getId() {
-    return this.id
+    return this.id;
   },
   getName() {
-  return this.name
-}
+  return this.name;
+}, 
 
+getPrice() {
+  return this.price;
+},
+
+getQty() {
+  return this.qty;
+}
 
 
 
