@@ -7,7 +7,7 @@ const DOM = {
 
 
 
-function createPhone {
+function createPhone(name, price, img) {
   return {
     id: crypto.randomUUID(),
     name,
@@ -28,6 +28,8 @@ getPrice() {
 
 getQty() {
   return this.qty;
+},
+  };
 }
 
 
